@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORTHSIDE</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>NORTHSIDE</h1>
+        <p>Music | Creativity | Community</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>NORTHSIDE is a creative agency and record label dedicated to showcasing rising talent and producing innovative music.</p>
+    </section>
+
+    <section id="artists">
+        <h2>MOB TIES</h2>
+        <ul>
+            <li>@oriebkckmaestro</li>
+            <li>@trophy.rsa</li>
+            <li>@whoisonismus</li>
+            <li>@iam_bigcarsso</li>
+            <li>@raisor_beats</li>
+        </ul>
+    </section>
+
+    <section id="music">
+        <h2>Our Music</h2>
+        <p>Check out our latest playlist on Spotify:</p>
+        <a href="https://open.spotify.com/playlist..." target="_blank">Listen on Spotify</a>
+    </section>
+
+    <footer>
+        <p>© 2023 NORTHSIDE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
