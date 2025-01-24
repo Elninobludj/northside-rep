@@ -1,41 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NORTHSIDE</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Agency</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>NORTHSIDE</h1>
-        <p>Music | Creativity | Community</p>
-    </header>
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Creative Agency Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>NORTHSIDE is a creative agency and record label dedicated to showcasing rising talent and producing innovative music.</p>
-    </section>
+  <section id="about">
+    <h1>Welcome to Our Creative Agency</h1>
+    <p>We are a team of passionate artists, producers, and engineers dedicated to creating amazing experiences.</p>
+  </section>
 
-    <section id="artists">
-        <h2>MOB TIES</h2>
-        <ul>
-            <li>@oriebkckmaestro</li>
-            <li>@trophy.rsa</li>
-            <li>@whoisonismus</li>
-            <li>@iam_bigcarsso</li>
-            <li>@raisor_beats</li>
-        </ul>
-    </section>
+  <section id="team">
+    <h2>Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="assets/artist1.jpg" alt="Artist 1">
+        <h3>Artist 1</h3>
+      </div>
+      <div class="team-member">
+        <img src="assets/artist2.jpg" alt="Artist 2">
+        <h3>Artist 2</h3>
+      </div>
+      <div class="team-member">
+        <img src="assets/producer1.jpg" alt="Producer 1">
+        <h3>Producer 1</h3>
+      </div>
+      <div class="team-member">
+        <img src="assets/producer2.jpg" alt="Producer 2">
+        <h3>Producer 2</h3>
+      </div>
+      <div class="team-member">
+        <img src="assets/engineer.jpg" alt="Engineer">
+        <h3>Engineer</h3>
+      </div>
+    </div>
+  </section>
 
-    <section id="music">
-        <h2>Our Music</h2>
-        <p>Check out our latest playlist on Spotify:</p>
-        <a href="https://open.spotify.com/playlist..." target="_blank">Listen on Spotify</a>
-    </section>
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Merchandise Design & Production</li>
+      <li>Event Promotions</li>
+      <li>Event Management</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>© 2023 NORTHSIDE. All rights reserved.</p>
-    </footer>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@creativeagency.com">info@creativeagency.com</a></p>
+    <p>Phone: +1 234 567 890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Creative Agency. All rights reserved.</p>
+  </footer>
 </body>
 </html>
