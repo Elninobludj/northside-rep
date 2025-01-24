@@ -1,44 +1,68 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
 }
 
 header {
-    background-color: #333;
-    padding: 20px;
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
 }
 
-h1 {
-    margin: 0;
-    font-size: 2.5rem;
+header .logo img {
+  max-width: 100px;
 }
 
-p {
-    font-size: 1.2rem;
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 section {
-    padding: 20px;
+  padding: 2rem;
+  text-align: center;
 }
 
-#artists ul {
-    list-style-type: none;
-    padding: 0;
+h1, h2, h3 {
+  margin-bottom: 1rem;
 }
 
-#artists li {
-    margin: 10px 0;
-    font-size: 1.1rem;
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.team-member {
+  flex: 1 1 calc(33.333% - 2rem);
+  max-width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
 }
 
 footer {
-    background-color: #333;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
 }
